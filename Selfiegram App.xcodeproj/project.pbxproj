@@ -14,6 +14,8 @@
 		1A51EC472047AE2B0046B624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51EC452047AE2B0046B624 /* LaunchScreen.storyboard */; };
 		1A51EC522047AE2B0046B624 /* Selfiegram_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51EC512047AE2B0046B624 /* Selfiegram_AppTests.swift */; };
 		1A51EC5D2047AE2B0046B624 /* Selfiegram_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51EC5C2047AE2B0046B624 /* Selfiegram_AppUITests.swift */; };
+		1AC97EDD2050F4B4002E0DE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC97EDC2050F4B4002E0DE9 /* User.swift */; };
+		1AC97EDF2050F5B7002E0DE9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC97EDE2050F5B7002E0DE9 /* Post.swift */; };
 		1AC998A9204E4B14003ED3D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC998A8204E4B14003ED3D9 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		1A51EC582047AE2B0046B624 /* Selfiegram AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Selfiegram AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A51EC5C2047AE2B0046B624 /* Selfiegram_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selfiegram_AppUITests.swift; sourceTree = "<group>"; };
 		1A51EC5E2047AE2B0046B624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC97EDC2050F4B4002E0DE9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1AC97EDE2050F5B7002E0DE9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1AC998A8204E4B14003ED3D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,8 @@
 				1A51EC3C2047AE2B0046B624 /* AppDelegate.swift */,
 				1A51EC3E2047AE2B0046B624 /* ViewController.swift */,
 				1A51EC402047AE2B0046B624 /* Main.storyboard */,
+				1AC97EDC2050F4B4002E0DE9 /* User.swift */,
+				1AC97EDE2050F5B7002E0DE9 /* Post.swift */,
 				1A51EC432047AE2B0046B624 /* Assets.xcassets */,
 				1AC998A8204E4B14003ED3D9 /* ProfileViewController.swift */,
 				1A51EC452047AE2B0046B624 /* LaunchScreen.storyboard */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC97EDD2050F4B4002E0DE9 /* User.swift in Sources */,
 				1AC998A9204E4B14003ED3D9 /* ProfileViewController.swift in Sources */,
 				1A51EC3F2047AE2B0046B624 /* ViewController.swift in Sources */,
 				1A51EC3D2047AE2B0046B624 /* AppDelegate.swift in Sources */,
+				1AC97EDF2050F5B7002E0DE9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
