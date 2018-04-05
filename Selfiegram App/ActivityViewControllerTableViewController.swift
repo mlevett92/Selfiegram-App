@@ -13,6 +13,8 @@ class ActivityViewControllerTableViewController: UITableViewController {
     var activities = [Activity]()
 
     override func viewDidLoad() {
+        
+        navigationItem.titleView = UIImageView(image: UIImage(named: "Selfigram-logo"))
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
